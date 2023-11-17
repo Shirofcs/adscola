@@ -2,12 +2,12 @@ function tocaSom(idElementAudio){
     document.querySelector(idElementAudio).play();
 }
 
-const litaDeTeclas = document.querySelectorAll(".tecla");
+const listaDeTeclas = document.querySelectorAll(".tecla");
 
-for(let contaor = 0; contador <listaDeTeclas.length; contaor++){
+for(let contador = 0; contador <listaDeTeclas.length; contador++){
     const tecla =listaDeTeclas[contador];
-    constefeito = tecla.classList[1];
-    constidAudio ='#som_${efeito}'
+    const efeito = tecla.classList[1];
+    const idAudio ='#som_${efeito}'
     tecla.onclick = function(){
         tocaSom(idAudio);
     };
