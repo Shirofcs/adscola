@@ -11,4 +11,4 @@ for(let contaor = 0; contador <listaDeTeclas.length; contaor++){
     tecla.onclick = function(){
         tocaSom(idAudio);
     };
-}
+} 
